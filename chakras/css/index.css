@@ -1,0 +1,144 @@
+html {
+    font-family: var(--font-family);
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+.header-principal {
+    background-color: var(--gris-principal);
+    color: #ffffff;
+    padding: 12px 0;
+    text-align: center;
+    line-height: 21px;
+}
+
+.segunda-section {
+    align-items: center;
+    height: 70px;
+    bottom: 0px;
+    color: var(--gris-principal);
+    display: flex;
+    height: 90px;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+.segunda-section .logo {
+    height: 65px;
+}
+
+.segunda-section .img1 {
+    height: 20px;
+    padding: 0 16px;
+    width: 25%;
+}
+
+.segunda-section .derecha {
+    font-size: 1.75rem;
+    text-align: right;
+}
+
+.segunda-section .derecha a {
+    color: var(--gris-principal);
+    font-weight: lighter;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.carrusel .carrusel-texto {
+    display: block;
+    position: absolute;
+    margin-block-end: 9rem;
+    margin-block-start: 9rem;
+    margin-inline-end: 16rem;
+    margin-inline-start: 16rem;
+}
+
+.carrusel .carrusel-texto h2 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: bolder;
+    margin-bottom: 10px;
+}
+
+.carrusel .carrusel-texto button {
+    background-color: #56cfe1;
+    border-color: #56cfe1;
+    color: #ffffff;
+    font-size: 0.75rem;
+    margin-left: 30px;
+    padding: 10px 20px;
+}
+
+.carrusel img {
+    height: 371px;
+}
+
+.texto {
+    margin-bottom: 20px;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.texto h2 {
+    font-size: 1.55rem;
+}
+
+.texto span {
+    color: #878787;
+    font-size: 1rem;
+}
+
+.imagenesPosters {
+    display: block;
+}
+
+.imagenesPosters img {
+    height: 674px;
+    margin: 0 15px;
+}
+
+.imagenesPosters a {
+    color: var(--gris-principal);
+    text-decoration: none;
+}
+
+.imagenesPosters span {
+    color: #ffffff;
+}
+
+.imagenesPosters .sale {
+    background-color: #fe9931;
+    font-size: 0.75rem;
+    margin-block-end: 10px;
+    margin-block-start: 10px;
+    margin-inline-end: 90px;
+    margin-inline-start: 25px;
+    padding: 5px 10px;
+    position: absolute;
+}
+
+.imagenesPosters .eye {
+    background-color: #ffffff;
+    color: var(--gris-principal);
+    margin-block-end: 30px;
+    margin-block-start: 10px;
+    margin-inline-end: 390px;
+    margin-inline-start: 640px;
+    padding: 10px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.imagenesPosters .button {
+    background-color: #56cfe1;
+    font-weight: bolder;
+    height: 30px;
+    margin-top: -10px;
+    margin-left: 15px;
+    padding-top: 10px;
+    position: relative;
+    text-align: center;
+    width: 95.8%;
+}
